@@ -130,7 +130,7 @@
     }
 
 
-    // Tag Stack ---------------------------------------------------
+    // Push Tag ---------------------------------------------------
     function PushTag(tagObj, line) {
         tagStack.push(tagObj);
         spaceBeforeLineStart = '';
@@ -140,7 +140,7 @@
         return true;
     }
 
-
+    // Pop Tag ---------------------------------------------------
     function PopTag(tagObj) {
 
         // look for corosponding start tag
